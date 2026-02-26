@@ -1,12 +1,6 @@
 import React from "react";
 
 const Product = () => {
-  const Product = [
-    { name: "nokia", price: 1200 },
-    { name: "samsung s22", price: 70000 },
-    { name: "iphone 13", price: 15000 },
-  ];
-
   // const Product = (props) => {
   //  console.log(props.arrays); this is arry cll
   // **************
@@ -26,6 +20,9 @@ const Product = () => {
       <h1>Name : {props.arrays[1]}</h1>
       <h1>Name : {props.arrays[2]}</h1>
       <h1>Name : {props.arrays[3]}</h1> */}
+
+      {/* map loop use kore data pass to other component 
+      ??** dynamic data pass korte chayle {} karli basis dite hoi*/}
     </div>
   );
 };
