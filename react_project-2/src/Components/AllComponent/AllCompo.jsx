@@ -1,4 +1,8 @@
+import Conditional from "../ConditionalCompo/Conditional";
 import Product from "../Products/Product";
+
+import Api from "../UseEffect/Api";
+import UseEffect from "../UseEffect/UseEffect";
 import UseState from "../UseStateHook/UseState";
 
 const AllCompo = () => {
@@ -12,7 +16,12 @@ const AllCompo = () => {
 
   return (
     <div>
+      <Api />
+
+      <Conditional />
       <UseState />
+      <UseEffect />
+
       <Product />
 
       {/* <Product products={products} /> */}

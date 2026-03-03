@@ -1,19 +1,21 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const UseState = () => {
-  //useState install kora hoi jate react library theke proyojonio  kaj korte parbo
+  //install useState() method in react library
+  //useState k variable er vetore rakhte hoi r variable er ekta nam dite hoi , diye ekta
   const [price, setPrice] = useState(10);
-  // veriable[ name, method/function]=useState()
-  // javascript code
+  //javascript arrow founction declared
 
   const increseHandle = () => {
     const newPrice = price + 1;
     setPrice(newPrice);
   };
+
   const decreseHandle = () => {
     const newPrice = price - 1;
     setPrice(newPrice);
   };
+
   return (
     <div>
       <h1>Hurry we larn UseState Hook</h1>
@@ -34,7 +36,7 @@ const UseState = () => {
       </button>
 
       <h1>Price :{price}</h1>
-      <p> price: {price}</p>
+      <p> price:{price}</p>
     </div>
   );
 };
